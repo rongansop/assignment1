@@ -8,22 +8,17 @@ by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 
 # Assignment 1 - 5% of the final grade (started during lab 2) 
 
-Assignment Submission before October 2nd, 11h59pm using [BrightSpace](https://uottawa.brightspace.com/)
+Assignment Submission before October 9th, 11h30pm using [BrightSpace](https://uottawa.brightspace.com/)
 
 During the lab 2, you will start working on your assignment 1. The TA will explain how to setup your environment, how to measure the execution time of a Java program and HOW TO DEBUG!
 
 **INSTRUCTIONS**
 
-* Use the following invitation to join or create a repository for assignment 1. As we did for the lab 1 and project, one member of the team creates the repository, the other joins it. 
-
-```
-https://classroom.github.com/g/DKiBYq0I
-```
-* You also need to create a Group in Brightspace (Groups_Assignment1).
+* You need to create a Group in Brightspace (Groups_Assignment1).
 
 **Group work and partners**: In this lab, and all other labs that involve programming, you
-will work in **groups of two**. You can work with students in ANY lab section (SEG2105B or SEG2105C). 
-You can also work individually. **No groups of 3 will be permitted.**
+will work in **groups of two**.  
+**No groups of 3 will be permitted.**
 
 ## Format
 
