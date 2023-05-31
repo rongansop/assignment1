@@ -2,32 +2,37 @@ package design2;
 
 public class PointCP2 {
 
-private double rho;
-private double theta;
+//private char typeCoord;
+private double xOrRho;
+private double yOrTheta;
 
 public PointCP2(double rho, double theta) {
-this.rho = rho;
-this.theta = theta;
+	this.xOrRho = rho;
+    this.yOrTheta = theta;
 }
 
 public double getX() {
-return (Math.cos(Math.toRadians(theta)) * rho);
+	 return (Math.cos(Math.toRadians(yOrTheta)) * xOrRho);
 }
 
 public double getY() {
-return (Math.sin(Math.toRadians(theta)) * rho);
+	return (Math.sin(Math.toRadians(yOrTheta)) * xOrRho);
 }
 
 public double getRho() {
-return rho;
+return xOrRho;
 }
 
 public double getTheta() {
-return theta;
+return yOrTheta;
 }
 
 public void convertStorageToCartesian() {
-// No action required, already in Cartesian coordinates
+	double temp = getX();
+    yOrTheta = getY();
+    xOrRho = temp;
+ 
+	  System.out.println("Cartesian coordinates: (" + xOrRho + ", " + yOrTheta + ")");
 }
 
 public void convertStorageToPolar() {

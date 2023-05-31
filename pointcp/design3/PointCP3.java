@@ -31,7 +31,10 @@ public void convertStorageToCartesian() {
 }
 
 public void convertStorageToPolar() {
-// No action required, already in Polar coordinates
+	double temp = getRho();
+    double yOrTheta = getTheta();
+    double xOrRho = temp;
+    System.out.println("Polar coordinates: (" + xOrRho + ", " + yOrTheta + ")");
 }
 
 public double getDistance(PointCP3 pointB) {
